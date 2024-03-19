@@ -1,0 +1,79 @@
+$black-dark:#030303;
+body, html{
+    text-align: center;
+}
+.Social {
+    margin-left: 30px;
+    animation-name: fadein;
+    width: 196px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    img {
+        transition-duration: 200ms;
+        width: 20px; 
+        height: auto; 
+        &:hover{
+            width: 24px;
+        }
+}
+}
+nav{
+    height: 80px;
+    justify-content: space-between;
+    background-color: $black-dark;
+    // width: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2.5px solid white;
+}
+.ResumeAbout{
+    display: flex;
+    margin-right: 30px;
+    width: max-content; 
+    justify-content: center;
+    gap: 18px;
+    p{
+        transition-duration: 200ms;
+        font-size: 18px;
+        align-self: center;
+        font-weight:500;
+        width: max-content;
+        &:hover{
+            letter-spacing: 2px;
+            color: #90F2FF;
+        }
+    }
+}
+.Resume{
+    padding: 4px 11px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    height: 28px;
+    border: 1.8px solid white;
+    transition-duration: 200ms;
+    p{
+        width: max-content;
+    }
+    &:hover{
+        background-color: white;
+        padding: 5px 18px;
+        p{
+            color: $black-dark;
+            letter-spacing: 2px;
+        }
+    }
+}
+.Navbar{
+    text-align: center;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    letter-spacing: 0.8px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 500;
+}
